@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+#Contenedor {
+    border: 2px solid black;
+    border-radius: 3mm;
+    background-color: #edbf9d;
+    padding-right: 4mm;
+    padding-left: 4mm;
+}
+.centro {
+    display: flex;
+    justify-content: center;
+}
+#boton {
+    display: flex;
+    justify-content: center;
+    padding-top: 2mm;
+    padding-bottom: 2mm;
+}
+
+#titulo {
+    padding-bottom: 2mm;
+}

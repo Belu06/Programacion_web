@@ -1,0 +1,107 @@
+#boton {
+  color: #505459;
+  display: flex;
+  justify-content: flex-end;
+  border-bottom: 2px solid #453f5c;
+  padding: 10px;
+}
+#encabezado {
+  display: flex;
+  justify-content: space-around;
+}
+
+.botones {
+  color: white;
+  background-color: black;
+  height: 2em;
+  margin-top: 2em;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.grilla {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(200px, auto));
+  grid-auto-rows: minmax(200px, 1fr);
+  gap: 30px;
+}
+#imagen {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+.contenedor-de-grilla {
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
+}
+.derecha {
+  display: flex;
+  justify-content: center;
+  color: white;
+  background: #171515;
+}
+
+.color-fondo {
+  background: linear-gradient(#151124, #453f5c);
+}
+.fondo {
+  border: solid #171515 15px;
+  background-color: #171515;
+  border-radius: 5px;
+  cursor: pointer;
+}
+footer {
+  border-top: 2px solid #726e80;
+  background: #453f5c;
+}
+#alineacion {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+.espacio {
+  padding: 2mm;
+}
+#centro {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+.Boton2 {
+  color: white;
+  background-color: black;
+  height: 2em;
+  margin-top: 2em;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+.Boton2:hover {
+  background-color: #505459;
+  transition: background-color 0.5s;
+}
+.botones:hover {
+  background-color: #505459;
+}
+.centrar-boton {
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  list-style: none;
+}
+.fondo:hover {
+  border: solid #505459 2px;
+}
+.Boton2:active {
+  color: black;
+}
+.botones:active {
+  color: black;
+}
+.fondo:active {
+  border: solid black 2px;
+}
